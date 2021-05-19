@@ -21,11 +21,11 @@
 * ResNetTrain.py
 * MobileNetTrain.py
 即可训练该模型。在训练过程中，可选择是训练”性别（输入G）“或是”表情（输入E)“数据集：
-![datachoice]](./Doc/GorE.jpg)
+![datachoice](./Doc/GorE.jpg)
 输入训练的次数：
-![epochchoice]](./Doc/epochtimes.jpg)
+![epochchoice](./Doc/epochtimes.jpg)
 输入训练结果保存为csv时的给自己看的参数（会出现在该csv文件的命名里面）：
-![note]](./Doc/note.jpg)
+![note](./Doc/note.jpg)
 
 ## 训练数据保存
 每一次训练完成之后，其训练过程中的loss和accuracy会以CSV文件形式全部保存在/DataSave/CSV目录下，同时为了方便服务器训练，也加入了可以将文件同步至百度网盘（主要是为了方便后面的调参），假如有需要用到可以如下操作：
